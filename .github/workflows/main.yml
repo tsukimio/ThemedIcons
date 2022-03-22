@@ -4,9 +4,8 @@ on:
   push:
     branches:
     - main
-    paths-ignore:
-      - .github/workflows/main.yml
-      - docs/*
+    paths:
+      module.prop
   workflow_dispatch:
 
 jobs:
