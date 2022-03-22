@@ -1,5 +1,9 @@
-id=Systemless_ThemedIcons
-name=Systemless Themed Icons
-version=1
-author=saitama_96
-description=Systemlessly install Themed Icons
+id=ThemedIcons
+name=Themed icons for Pixel launcher
+versionCode=100
+version=v1.0.0
+author=saitama_96 & n3rd3x3
+description=Install themed icons to Pixel launcher
+support=https://github.com/tsukimio/ThemedIcons
+minMagisk=2400
+updateJson=https://tsukimio.github.io/ThemedIcons/update.json
