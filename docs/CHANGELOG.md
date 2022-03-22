@@ -1,3 +1,6 @@
+# v1.1.1
+Fix a part of the module so it can actually install
+
 # v1.1.0
 Update icons to latest icons from Pixel Launcher Mod
 
