@@ -1,3 +1,21 @@
+#v1.1.5
+Add icons:
+* ExteraX
+* Bundled Notes
+* TG Monet
+* Tasker
+* Checkfirm
+* DevCheck
+* Wallcanic Walls
+* Geometric Weather
+* Zepp Life
+* Via Verde
+* Mi Buds M8
+* AdGuard
+* Lidl Plus
+* Note It
++ others not listed
+
 # v1.1.4
 Add icons:
 * Cricbuzz
