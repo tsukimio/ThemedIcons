@@ -2,9 +2,8 @@ name: Build Module (debug)
 
 on:
   push:
-    branches:
-      paths:
-        module.prop
+    paths:
+      module.prop
   workflow_dispatch:
 
 jobs:
