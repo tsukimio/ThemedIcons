@@ -1,3 +1,12 @@
+# v1.2.0
+Change icons:
+* Owlgram - Change from old icon to new icon
+
+Add icons:
+* Fokus
+
+**Notice: due to me having to modify & resign the apk, you may need to clean install this module if you are having any issues.**
+
 # v1.1.5
 Add icons:
 * ExteraX

@@ -1,0 +1,32 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ThemedIconsOverlay.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- res/drawable/themed_icon_atb360.xml
+- res/drawable/themed_icon_etabib.xml
+- res/drawable/themed_icon_inoreader.xml
+- res/drawable/themed_icon_telegraphx_pro.xml
+- res/drawable/themed_icon_telegraphx.xml
+- res/drawable/themed_icon_turbotel_pro.xml
+- res/drawable/themed_icon_mobile_legends.xml
+- res/drawable/themed_icon_mygov_az.xml
+- res/xml/grayscale_icon_map.xml
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '31'
+  targetSdkVersion: '31'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.0
+versionInfo:
+  versionCode: '31'
+  versionName: '12'
