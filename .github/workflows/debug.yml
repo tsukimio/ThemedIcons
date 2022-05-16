@@ -1,0 +1,37 @@
+name: Build Module (debug)
+
+on:
+  push:
+    branches:
+      paths:
+        module.prop
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Upload asset
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Get ID
+        id: mId
+        run: echo "::set-output name=id::$(grep "^id=" module.prop|cut -d'=' -f2)"
+
+      - name: Get version
+        id: mVersion
+        run: echo "::set-output name=version::$(grep "^version=" module.prop|cut -d'=' -f2)"
+
+      - name: Remove unnecessary files
+        run: rm -r README.md .git .github system/product/overlay/ThemedIconsOverlay
+
+      - name: Build project
+        run: zip -r "${{ steps.mId.outputs.id }}.${{ steps.mVersion.outputs.version }}.zip" . -x "README.md" ".git/*" ".github/*" "system/product/overlay/ThemedIconsOverlay/" 
+
+      - name: Create debug
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ steps.mId.outputs.id }}.${{ steps.mVersion.outputs.version }}.zip
+          path: ./${{ steps.mId.outputs.id }}.${{ steps.mVersion.outputs.version }}.zip
