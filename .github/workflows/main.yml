@@ -26,7 +26,7 @@ jobs:
         run: echo "::set-output name=version::$(grep "^version=" module.prop|cut -d'=' -f2)"
 
       - name: Remove unnecessary files
-        run: rm -r README.md .git .github system/product/overlay/ThemedIconsOverlay
+        run: rm -r README.md .git .github system/product/overlay/ThemedIconsOverlay docs
 
       - name: Build project
         run: zip -r "${{ steps.mId.outputs.id }}.${{ steps.mVersion.outputs.version }}.zip" . -x "README.md" ".git/*" ".github/*" "system/product/overlay/ThemedIconsOverlay/" 

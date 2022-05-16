@@ -1,8 +1,8 @@
 id=ThemedIcons
 name=Themed icons for Pixel launcher
-versionCode=108
-version=v1.2.1
-author=saitama_96 & n3rd3x3 & Team Files Modules Repo
+versionCode=109
+version=v1.2.2
+author=n3rd3x3 & Team Files Modules Repo
 description=Install themed icons to Pixel launcher
 support=https://github.com/tsukimio/ThemedIcons
 minMagisk=2400

@@ -1,3 +1,7 @@
+# v1.2.2
+
+Remove docs from build, fix Owlgram icon
+
 # v1.2.1
 
 Remove many unnecessary files from the final build, reduce file size
