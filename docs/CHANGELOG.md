@@ -1,3 +1,7 @@
+# v1.2.1
+
+Remove many unnecessary files from the final build, reduce file size
+
 # v1.2.0
 Change icons:
 * Owlgram - Change from old icon to new icon
