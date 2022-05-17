@@ -690,7 +690,6 @@
     <icon drawable="@drawable/themed_icon_apex_legends" package="com.ea.gp.apexlegendsmobilefps" />
     <icon drawable="@drawable/themed_icon_macrodroid" package="com.arlosoft.macrodroid" />
     <icon drawable="@drawable/themed_icon_modo" package="com.playdigital.modo" />
-    <icon drawable="@drawable/themed_icon_owlgram" package="it.owlgram.android" />
     <icon drawable="@drawable/themed_icon_picto" package="com.vrd.picto" />
     <icon drawable="@drawable/themed_icon_simtoolkit" package="com.android.stk" />
     <icon drawable="@drawable/themed_icon_pl_mods" package="com.kieronquinn.app.pixellaunchermods" />
