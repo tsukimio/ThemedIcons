@@ -1,3 +1,7 @@
+# v1.2.3
+
+Add many new icons, fix Owlgram for real this time
+
 # v1.2.2
 
 Remove docs from build, fix Owlgram icon
